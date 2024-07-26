@@ -5,3 +5,11 @@ change_color = () => {
         console.log("No")}
 
 };
+
+
+urlnice = () => {
+    const requestUrl = "http://127.0.0.1:3000/";
+    const reponse = fetch(requestUrl)
+    .then((response) => response.json())
+    .then((json) => console.log(json))
+};
