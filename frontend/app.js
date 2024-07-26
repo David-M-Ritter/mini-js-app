@@ -8,7 +8,7 @@ change_color = () => {
 
 
 urlnice = () => {
-    const requestUrl = "http://127.0.0.1:3000/";
+    const requestUrl = "http://127.0.0.1:3000/Nicedude";
     const reponse = fetch(requestUrl)
     .then((response) => response.json())
     .then((json) => console.log(json))

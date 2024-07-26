@@ -1,20 +1,20 @@
 const express = require('express');
 const cors = require('cors')
-const app = express();
+const no = express();
 
 //middleware
 
-app.use(cors())
+no.use(cors())
 
 
 
 
 const port  = 3000;
 
-app.get('/', (req, res) => {
+no.get('/Nicedude', (req, res) => {
     res.send({"hello":"there"})
 });
 
-app.listen(port, () => {
+no.listen(port, () => {
     console.log('Example app listening on port: '+ port)
 });
